@@ -46,7 +46,7 @@
             <br/>
             <br/>
             <div class = "animated bounceInLeft" onclick="boke();">
-                © 2017 All Rights Reserved. 邹海清|z77z的小码窝
+                © 2017 All Rights Reserved. DavidKing
             </div>
         </div>
     </div>

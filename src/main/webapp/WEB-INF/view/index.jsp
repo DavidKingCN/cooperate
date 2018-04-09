@@ -4,7 +4,7 @@
 <html>
 <% String contextPath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + request.getContextPath(); %>
  <head>
-  <title>z77z后台管理|首页</title>
+  <title>dk后台管理|首页</title>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <link href="<%=contextPath%>/static/assets/css/dpl-min.css" rel="stylesheet" type="text/css" />
    <link href="<%=contextPath%>/static/assets/css/bui-min.css" rel="stylesheet" type="text/css" />
@@ -13,7 +13,7 @@
  <body>
 	<div class="header">
 		<div class="dl-title">
-			<a href="http://z77z.oschina.io/" title="个人博客地址" target="_blank">
+			<a href="#" title="个人博客地址" target="_blank">
 				<span class="lp-title-port">z77z</span><span class="dl-title-text">后台管理系统</span>
 			</a>
 		</div>
