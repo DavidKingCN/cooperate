@@ -5,7 +5,7 @@
 <% String contextPath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + request.getContextPath(); %>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>z77z后台管理系统 - 内容页</title>
+<title>dk后台管理系统 - 内容页</title>
 <link href="<%=contextPath%>/static/css/content-base.css" rel="stylesheet" />
 <link href="<%=contextPath%>/static/css/jqgrid/ui.jqgrid.css" rel="stylesheet" />
 </head>
