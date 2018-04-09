@@ -56,7 +56,7 @@
 	
 	//跳转到个人博客
 	function boke(){
-		location.href = "http://z77z.oschina.io/";
+		location.href = "#";
 	}
 
 	function login() {
