@@ -47,7 +47,7 @@ public class MyShiroRealm extends AuthorizingRealm {
 	@Autowired
 	private SysPermissionService sysPermissionService;
 	
-	@Autowired
+	@Autowired	
 	StringRedisTemplate stringRedisTemplate;
 	
 	@Autowired
@@ -88,6 +88,8 @@ public class MyShiroRealm extends AuthorizingRealm {
 		//密码进行加密处理  明文为  password+name
 		String paw = password+name;
 		String pawDES = MyDES.encryptBasedDes(paw);
+		
+		System.out.println("密码："+pawDES);
 		map.put("pswd", pawDES);
 		SysUser user = null;
 		// 从数据库获取对应用户名密码的用户
